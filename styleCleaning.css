@@ -1,0 +1,303 @@
+/*---------------------------------------------*/
+/*BASIC SETUP*/
+/*---------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*---------------------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*---------------------------------------------*/
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+    margin-bottom: 40px;
+}
+
+.box {
+    padding: 1%;
+}
+
+button {
+    color: white;
+    border-style: none;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*---------Footer----------*/
+footer {
+    background-color: #272d33;
+    color: white;
+    height: 250px;
+    
+}
+
+.footer-address {
+    text-align: center;
+    font-size: 80%;
+    margin-top: 50px;
+    color: darkgrey;
+    line-height: 150%;
+    letter-spacing: 1.5px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 80%;
+    margin-top: 5px;
+    color: grey;
+    letter-spacing: 1px;
+}
+
+footer ul {
+    text-align: center;
+    margin: 40px auto 20px auto;
+    height: 40px;
+    
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+    height: 100%;
+    width: 40px;
+    border-radius: 50%;
+    background-color: brown;
+    margin: 10px;
+    transition: 0.2s;
+}
+
+footer li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+footer .fab {
+    margin: 25% auto;
+    color: white
+}
+
+
+/*--------Navigation-----------*/
+
+nav {
+    height: 70px;
+}
+
+nav img {
+    width: 130px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+.main-nav {
+    float: right;
+    padding: 20px;
+}
+
+.main-nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 70%;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: #03a9fc;
+}
+
+.main-nav button {
+    font-size: 100%;
+    border-radius: 5px;
+    background-color: #03a9fc;
+}
+
+
+
+/*----------Home------------*/
+
+.main-page {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/resources/css/img/cleaning-home.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.main-page h2 {
+    padding-top: 50px;
+    color: white;
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.btn-schedule {
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: green;
+    letter-spacing: 2px;
+    font-size: 70%;
+}
+
+
+
+/*-------Services---------*/
+
+.services img {
+    margin: auto 30%;
+    width: 40%;
+}
+
+.services h4 {
+    text-align: center;
+    text-transform: uppercase
+}
+
+.services p {
+    width: 60%;
+    margin: 20px 20%;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.services button {
+    width: 50%;
+    margin: 0 25% 40px 25%;
+    height: 40px;
+    background-color: #8de051;
+    text-transform: uppercase;
+}
+
+/*-----------Slideshow---------*/
+
+.slides {
+    display: none;
+    width: 50%;
+    margin: 40px auto;
+    border-style: ridge;
+    border-radius: 5px;
+}
+
+
+/*-----------Pricing-----------*/
+
+.price .col {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.price h4 {
+    margin-bottom: 20px;
+}
+
+.price img {
+    width: 50%;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin-top: 210px;
+    text-align: center;
+}
+
+.extra-service p {
+    margin: 10px 10%;
+    text-align: 
+}
+
+
+/*------------About------------*/
+
+.about p {
+    margin: 40px auto 0 auto;
+    width: 60%;
+    line-height: 180%;
+    font-size: 80%;
+    text-align: justify;
+}
+
+#address {
+    text-align: center;
+    font-size: 140%;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+#map {
+    width: 60%;
+    height: 400px;
+    margin: auto;
+}
+
+/*-------------FAQs------------*/
+
+.faqs {
+    width: 60%;
+    margin: 0 20%;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 120%;
+}
+
+.faqs h2 {
+    color: skyblue;
+    margin-top: 30px;
+}
+
+.faqs h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.faqs p {
+    font-size: 80%
+}

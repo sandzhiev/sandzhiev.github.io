@@ -1,0 +1,262 @@
+/*---------------------------------------------*/
+/*BASIC SETUP*/
+/*---------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.why-to-play,
+.events,
+.locations {
+    text-align: center;
+    background-color: #faf8f2;
+}
+
+
+.main-page {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(img/wp-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.intro {
+    position: absolute;
+    width: 100%;
+    padding: 0 2%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 120%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #d68233;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+header {
+    height: 100vh;
+}
+
+
+.nav-link {
+    color: white;
+    transition: 0.7s;
+    text-transform: uppercase;
+    font-size: 110%;
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration:underline orange;
+}
+
+
+nav li {
+    margin-right: 20px;
+}
+  /*--------------Icons-----------------*/
+i {
+    font-size: 200%;
+    margin-top: 5px;
+}
+
+.fa-angle-double-up:hover {
+    cursor: pointer;
+}
+
+
+
+/*-----------Section Why to play?----------*/
+.why-to-play h2 {
+    width: 60%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.why-to-play {
+    width:65%;
+    justify-content: center;
+    display: none;
+    position: relative;
+    border: 2px solid #d68233;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.why-to-play .row {
+    margin: 25px auto;
+}
+
+.reason .img-left {
+    float: left;
+    margin-right: 30px;
+    height: 120px;
+    width: auto;
+}
+
+.reason .img-right {
+    float: right;
+    margin-left: 30px;
+    height: 120px;
+    width: auto;
+}
+
+.why-to-play p {
+    text-align: justify;
+}
+
+.why-to-play img {
+    border-radius: 3%;
+}
+
+.btn-home {
+    position: absolute;
+    margin-top: 10px;
+    left: 7%;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: yellow;
+    font-weight: 600;
+}
+
+/*---------------Events-----------------------*/
+
+
+.winner-of-year {
+    height: auto;
+    width: 80%;
+    border-radius: 5px;
+    transform: scale(1);
+    opacity: 0.9;
+    transition: 0.5s;
+    margin-bottom: 20px
+}
+
+.winner-of-year:hover {
+    transform: scale(1.15);
+    opacity: 1;
+}
+
+.random-pics li {
+    display: block;
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+
+.random-pics img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    opacity: 0.8;
+    transform: scale(1.2);
+    transition: transform 0.6s; opacity 0.6s;
+}
+
+.random-pics img:hover {
+    opacity: 1;
+    transform: scale(1)
+}
+
+.events ul {
+    list-style: none;
+    margin: 0;
+}
+
+
+/*----------------Places to play--------------*/
+.locations p {
+    height: 90px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 80%; 
+}
+
+.locations .container {
+    margin-bottom: 50px;
+}
+.map {
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 5px lightgrey;
+}
+
+#map-park,
+#map-aviator {
+  height: 340px;  /* The height is 340 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
+
+
+
+
+/*--------Footer-----------*/
+footer ul {
+    list-style: none;
+    text-align: right;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    color:#cd486b;
+}

@@ -1,0 +1,52 @@
+body {
+    background-color: floralwhite;
+}
+table {
+    padding: 0;
+    margin: auto;
+    border-spacing: 0;
+}
+
+.field {
+    width: 120px;
+    height: 120px;
+    font-family: McLaren;
+    font-size: 450%;
+    color: crimson;
+}
+
+#fieldFive {
+    border: 2px solid black;
+}
+
+#fieldEight,
+#fieldTwo {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+#fieldFour,
+#fieldSix {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+#winner {
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 230%;
+    font-weight: 400;
+    
+}
+
+button {
+    border-radius: 10px;
+    background-color: beige;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}

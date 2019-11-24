@@ -1,0 +1,103 @@
+/*BIG TABLETS TO 1200px: from 1024 to 1200px*/
+
+@media only screen and (max-width: 1200px) {
+    .row {padding: 0 2%; }
+}
+
+
+
+/*SMALL TABLETS TO BIG TABLETS: from 768 to 1023px*/
+ 
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+   
+    .web-dev {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+
+
+
+/*SMALL PHONES TO SMALL TABLETS: from 481 to 767px*/
+
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px;}
+    section { padding: 30px 0; }
+    .web-dev {
+        width: 80%;
+        margin-right: 5%;
+    }
+    .mobile-icon { 
+        display: inline-block;
+        float: right;
+        font-size: 150%;
+        color: whitesmoke;
+    }
+    .main-nav li {
+        display: block;
+        padding: 1px;
+    }
+    .main-nav {
+        display: none;
+        float: left;
+        margin-top: 40px;
+        margin-left: 65%;
+        font-size: 95%;
+        margin-bottom: 0;
+    }
+    .mobile-icon {
+        font-size: 100%;
+    }
+    .my-info {
+        margin-top: 55px;
+    }
+    .project .row {
+        margin-top: 10px;
+    }
+}
+    
+    
+
+/*SMALL PHONES: from 0 to 480px*/
+
+@media only screen and (max-width: 480px) {
+    body { font-size: 12px;}
+    section { padding: 5px 0; }
+    .web-dev {
+        width: 70%;
+    }
+    .projects p {
+        margin-top: 0;
+    }
+    .projects a {
+        width: 60%;
+        height: auto;
+        text-align: center;
+    }
+    .projects img {
+        width: 50%;
+        height: auto;
+        margin: 5px 24% 0 24%;
+    }
+    .projects h3 {
+    margin-top: 30px;
+    }
+    .main-nav {
+        font-size: 90%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .mobile-icon {
+        font-size: 95%;
+    }
+    #volleyblog {
+        margin-bottom: 0;
+    }
+    .my-info,
+    #volleyblog {
+        margin-top: 50px;
+    }
+   
+}

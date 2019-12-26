@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.4))), url(/resources/img/breakingbad.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(/resources/img/breakingbad.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    letter-spacing: 1px;
+}
+
+h4 {
+    color: white;
+    font-size: 170%
+}
+
+#container {
+    text-align: center;
+    margin-top: 10%
+}
+
+input {
+    background-color: transparent;
+    color: white;
+    border: solid 1px darkgrey;
+    height: 35px;
+    width: 20%;
+    font-size: 130%;
+}
+
+#add {
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+#result {
+    color: white;
+    width: 60%;
+    height: 200px;
+    margin-bottom: 80px;
+}
+#redo {
+   position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+#result img {
+    float: left;
+    height: 100%;
+    width: 140px;
+    margin-right: 20px;
+    border-radius: 10px;
+    vertical-align: middle;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+#result img:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+ul {
+    margin: 20px auto;
+    width: 30%;
+    
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    line-height: 20px;
+    color: white;
+    font-size: 140%;
+}
+
+li p {
+    display: inline-block;
+}
+
+#deletebtn {
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 60%;
+}
+
+#deletebtn:hover {
+    cursor: pointer;
+}
+
+#more {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

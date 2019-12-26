@@ -61,7 +61,7 @@ var More = function () {
 document.getElementById('more').onclick = function() {
     document.getElementById('container').style.display = 'none';
     
-    for (let i = 0;i <= list.length-1;i++) {
+    for (var i = 0;i <= list.length-1;i++) {
         fetch('https://www.omdbapi.com/?apikey=4dea959b&t=' + encodeURI(list[i]))
             .then(result => {
             return result.json();

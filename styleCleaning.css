@@ -277,3 +277,27 @@ h3 {
     height: 400px;
     margin: auto;
 }
+
+/*-------------FAQs------------*/
+
+.faqs {
+    width: 60%;
+    margin: 0 20%;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 120%;
+}
+
+.faqs h2 {
+    color: skyblue;
+    margin-top: 30px;
+}
+
+.faqs h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.faqs p {
+    font-size: 80%
+}
